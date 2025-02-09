@@ -1,9 +1,9 @@
-import CommandBar from './projects/command-bar/CommandBar'
+import ThemeToggle from "./projects/theme-toggle/ThemeToggle"
 
 function App() {
   return (
-    <div>
-      <CommandBar />
+    <div className="flex justify-center items-center bg-slate-50 h-screen">
+      <ThemeToggle />
     </div>
   )
 }
