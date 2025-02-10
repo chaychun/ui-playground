@@ -1,9 +1,9 @@
-import ThemeToggle from "./projects/theme-toggle/ThemeToggle"
+import FloatingLabel from "./projects/floating-label/FloatingLabel"
 
 function App() {
   return (
     <div className="flex justify-center items-center bg-slate-50 h-screen">
-      <ThemeToggle />
+      <FloatingLabel />
     </div>
   )
 }
